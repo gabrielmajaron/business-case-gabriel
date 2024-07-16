@@ -6,6 +6,6 @@ namespace Messenger.EventBus.EventBus.Events;
 
 public class CreditCardsCreatedEvent : IntegrationEvent
 {
-    public List<CreditCardMessage> CreditProposalMessage { get; set; }
+    public List<CreditCardMessage> CreditCardsMessage { get; set; }
     public override EventNameEnum EventName => EventNameEnum.CreditCardsCreated;
 }
