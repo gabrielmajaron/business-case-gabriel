@@ -1,0 +1,6 @@
+﻿services:
+  creditproposalworker:
+    image: creditproposalworker
+    build:
+      context: .
+      dockerfile: CreditProposalWorker/Dockerfile
